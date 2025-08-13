@@ -70,5 +70,28 @@ export const PROJECTS = [
     category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
   },
 
+  {
+    imgSrc: './FoodClick.jpg',
+    title: 'FoodClick food-delivery App',
+    techIcons: [
+      getSkillByLabel(BACKEND_SKILLS, 'Node.js'),
+      getSkillByLabel(BACKEND_SKILLS, 'Express.js'),
+      getSkillByLabel(BACKEND_SKILLS, 'MongoDB'),
+      getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Bootstrap'),
+     
+      // {
+      //   label: 'Java',
+      //   icon: 'logos:java',
+      // },
+      
+    ],
+    description:
+      'FoodClick delivers a smooth food ordering experience with secure JWT authentication, category-based search, and real-time cart updates. Users can browse dynamic food listings, adjust quantities, and proceed through a seamless checkout flow. Built with the MERN stack, it features responsive design, clean REST APIs, and efficient database management for an engaging and reliable user journey.',
+    repoLink: 'https://github.com/harshpatil19/FoodClick.git',
+    sourceLink: '',
+    category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
+  },
+
   
 ];
